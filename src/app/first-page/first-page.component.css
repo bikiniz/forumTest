@@ -1,0 +1,63 @@
+.default-div {
+    padding: 50px 400px 50px 400px;
+}
+
+
+#headerOfPage {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#nestedHeaderOfPage {
+    padding-top: 30px;
+}
+
+.card {
+    max-width: none;
+    margin: 15px 0px 15px 0px;
+}
+
+.card-type2 {
+    max-width: none;
+    margin: 15px 0px 15px 0px;
+    background-color: #ccecff;
+}
+
+.header-image {
+    background-size: cover;
+}
+
+::ng-deep .mat-mdc-card-header {
+    border-style: hidden hidden ridge hidden;
+    border-color: #eaeaea;
+    height: 42px;
+  /*   padding: 16px 16px 6px 16px !important;; */
+}
+
+::ng-deep .mat-grid-tile-content {
+    display: inline-block !important;
+    padding: 16px 16px 16px 0px !important;
+}
+
+
+.header-p {
+    font-weight: bold;
+    color: orange;
+    padding-left: 10px;
+}
+
+.nested-header-p {
+    color: gray;
+    padding-left: 10px;
+}
+
+.mat-grid-tile div {
+    padding-left: 20px;
+    word-break: keep-all;
+}
+
+#spinDiv{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
